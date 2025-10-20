@@ -1,0 +1,49 @@
+Step‑by‑Step Setup Guide (with XAMPP)
+
+1. Install Requirements
+
+Install XAMPP (for Apache + MySQL). Start Apache and MySQL from the XAMPP control panel.
+
+2. Extract the Project ZIP
+
+Unzip the file SmartSupermart.zip.
+
+Inside you’ll see:
+
+php_app/ → the PHP frontend.
+
+sql/schema.sql → database tables.
+
+sample_data/sales.csv → sample dataset.
+
+3. Set Up the Database in XAMPP
+
+Open http://localhost/phpmyadmin.
+
+Create a new database named supermart.
+
+Click Import → upload sql/supermart.sql.
+
+4. Deploy the Folder into C:/xampp/htdocs/
+
+Example path on Windows: C:/xampp/htdocs/SmartSupermart
+
+Open in browser:
+http://localhost/SmartSupermart/public/index.php
+
+6. Test the Application
+
+Open http://localhost/SmartSupermart/public/index.php.
+
+Login to Dashboard
+
+Upload sample_data/sales.csv.
+
+Select Product and Season
+
+Click → Generate forecast model.
+
+Displays a line chart with predicted sales.
+
+
+
