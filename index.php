@@ -4,7 +4,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     header("Location: login.php");
     exit();
 }
-<?php
+<"?php"
 function forecast_sales($sales, $steps = 5, $seasonality = 7) {
     $window = 3; // moving average window
     $forecasts = [];
