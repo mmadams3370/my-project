@@ -173,7 +173,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['csv_file'])) {
           }
         });
       </script>
-    <?php endif;
+    <?php endif; ?>
   </div>
 </body>
 </html>
